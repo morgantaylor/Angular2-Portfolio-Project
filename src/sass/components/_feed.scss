@@ -1,0 +1,22 @@
+// ==================
+// Feed Box Reused
+// ==================
+
+.feed {
+
+  &__img {
+    height: 210px;
+    width: 100%;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfdfdf;
+
+    @include for-size(tablet-portrait-up) {
+        margin: 0 25px 0 0;
+    }
+  }
+}

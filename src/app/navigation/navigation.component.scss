@@ -1,0 +1,51 @@
+@import "src/sass/utils/index.scss";
+
+/* Navigation */
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  height:65px;
+}
+
+.navbar-static-top {
+  border: none;
+}
+
+.navbar-nav {
+  float: none !important;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #333;
+}
+
+.navbar-default {
+  background-color: $white;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color:  $white;
+  color: $coral;
+  border-bottom: 1px solid $coral;
+}
+
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+  background-color:  $white;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+@media screen and (min-width:768px) {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    box-shadow: none;
+    margin-top:5px;
+  }   
+}

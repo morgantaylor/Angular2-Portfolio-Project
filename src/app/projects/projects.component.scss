@@ -1,0 +1,111 @@
+@import "src/sass/utils/index.scss";
+
+.feed {
+  
+  &__box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 0;
+    border-bottom: .5px solid #ccc;
+
+    @include for-size(tablet-portrait-up) {
+      flex-direction: row;
+    }
+
+    .small {
+      font-family: $ptsans;
+      font-weight: 800;
+      margin-bottom: 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__img {
+    height: 210px;
+    width: 100%;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfdfdf;
+
+    @include for-size(tablet-portrait-up) {
+      margin: 0 25px 0 0;
+    }
+  }
+
+  &__inner {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 210px;
+
+    @include for-size(tablet-portrait-up) {
+      padding: 0;
+      text-align: left;
+      align-items: flex-start;
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+    margin-top: -6px;
+  }
+
+  &__info {
+    margin: 10px 0;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__button {
+    padding: 15px 0;
+    margin: 0 15px 0 0;
+  }
+
+  &__more {
+    display: none;
+    
+    &.on {
+      display: block;
+    }
+  }
+}
+
+.panel__container {
+
+  &--projects {
+    margin-top: 50px;
+
+    .feed__box:first-of-type {
+      .feed__img {
+        background-color: #ececef;
+      }
+    }
+    .icon--code {
+      color: $black;
+      display: flex;
+      font-size: 80px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import "src/sass/utils/index.scss";
+
+.panel__container {
+
+  &--micro {
+    h1 + p {
+      text-align: center;
+    }
+  }
+}

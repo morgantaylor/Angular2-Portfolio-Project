@@ -1,0 +1,21 @@
+/* Page Structure */
+.pageWrapper {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.innerPage {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+}

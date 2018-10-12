@@ -1,0 +1,18 @@
+<div class="feed__box" *ngFor="let project of projects">
+  <img class="feed__img" src="{{ project.imagePath }}" alt="{{ project.imageDescription }}">
+  <div class="feed__inner">
+    <div class="feed__title coral">{{ project.title }}</div>
+    <p class="small">{{ project.languages }}</p>
+    <p class="small">{{ project.year }}</p>
+    <p class="feed__info">{{ project.description1 }}</p>
+    <p class="feed__info" *ngIf="project.description2">{{ project.description2 }}</p>
+    <div class="feed__buttons">
+      <a *ngIf="project.viewWebsite" href="{{ project.viewWebsitePath }}">
+        <button class="btn link-blue feed__button">Visit Website</button>
+      </a>
+      <a *ngIf="project.learnMore" routerLink="{{ project.learnMorePath }}">
+        <button class="btn link-blue feed__button">Lean More</button>
+      </a>
+    </div>
+  </div>
+</div>
