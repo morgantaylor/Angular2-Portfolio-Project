@@ -16,6 +16,10 @@ import { KfogComponent } from './case-study/kfog/kfog.component';
 import { KgoradioComponent } from './case-study/kgoradio/kgoradio.component';
 import { BridgetobridgeComponent } from './case-study/bridgetobridge/bridgetobridge.component';
 import { ColossalComponent } from './case-study/colossal/colossal.component';
+import { LevisComponent } from './case-study/levis/levis.component';
+import { FanfestComponent } from './case-study/fanfest/fanfest.component';
+import { YosemiteComponent } from './case-study/yosemite/yosemite.component';
+import { SobekComponent } from './case-study/sobek/sobek.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { ColossalComponent } from './case-study/colossal/colossal.component';
     KfogComponent,
     KgoradioComponent,
     BridgetobridgeComponent,
-    CumulusComponent
+    CumulusComponent,
+    LevisComponent,
+    FanfestComponent,
+    YosemiteComponent,
+    SobekComponent
   ],
   imports: [
     BrowserModule,
