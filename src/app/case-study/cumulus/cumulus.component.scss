@@ -1,10 +1,8 @@
 @import "src/sass/utils/index.scss";
 
-.panel__container {
+.study {
 
-  &--micro {
-    h1 + p {
-      text-align: center;
-    }
+  h1 + p {
+    text-align: center;
   }
 }

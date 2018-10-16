@@ -71,7 +71,7 @@ section {
       }
 
       .card--large {
-        margin-bottom: 30px;
+        margin: 0 10px 30px 0;
       }
     }
 
@@ -172,23 +172,6 @@ section {
   h1 {
     text-align: center;
     margin-bottom: 60px;
-  }
-
-  .top-image,
-  .image {
-    max-width: 650px;
-    width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
-  }
-
-  .top-image {
-    margin: 30px auto 60px auto;
-  }
-
-  .image {
-    margin: 60px auto;
   }
 
   &-cubes {

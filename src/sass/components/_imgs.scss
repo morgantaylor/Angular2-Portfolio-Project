@@ -1,1 +1,32 @@
+.top-image,
+.image {
+	max-width: 650px;
+	width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
+}
 
+.top-image {
+	margin: 30px auto 60px auto;
+}
+
+.image {
+	margin: 60px auto 10px auto;
+
+	&-half {
+		width: 300px;
+	}
+}
+
+.figure-inline {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
+	.figure {
+		width: 100%;
+		max-width: 300px;
+	}
+}
