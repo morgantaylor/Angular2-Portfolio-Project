@@ -2,7 +2,7 @@ import { Project } from '../projects/project';
 
 export const PROJECTS: Project[] = [
   { 
-    imagePath: 'src/assets/img/mockups/app-mockup-small.png',
+    imagePath: 'src/assets/img/mockups/app2-mockup-mvp-small.png',
     imageDescription: 'App Design Mockup',
     title: 'UX / Design / Front End Development',
     languages: 'UX, HTML, SASS',
@@ -28,15 +28,28 @@ export const PROJECTS: Project[] = [
     viewWebsitePath: 'http://dailyflowfitness.com' 
   },
   { 
-    imagePath: '',
+    imagePath: 'src/assets/img/mockups/lego-display-small.png',
     imageDescription: '',
     title: 'UX / Design / SASS',
     languages: 'SASS',
     year: '2017/2018',
     description1: 'In progress: Creating a lightweight SASS/CSS library with responsive modules. Preview coming soon!',
     description2: '',
-    learnMore: false,
-    learnMorePath: '',
+    learnMore: true,
+    learnMorePath: '/case-study/lego-css',
+    viewWebsite: false,
+    viewWebsitePath: '' 
+  },
+  { 
+    imagePath: 'src/assets/img/mockups/levis-mockup-small.png',
+    imageDescription: 'Lounge Mockup Image',
+    title: 'Design / Front End Development',
+    languages: 'HTML, CSS, Responsive, Javascript',
+    year: '2015/2016',
+    description1: 'Radio Station Microsites:',
+    description2: "Levi's® Lounge, Giants Fanfest, Yosemite, Sobek",
+    learnMore: true,
+    learnMorePath: '/case-study/cumulus',
     viewWebsite: false,
     viewWebsitePath: '' 
   },
@@ -76,19 +89,6 @@ export const PROJECTS: Project[] = [
     description2: '',
     learnMore: true,
     learnMorePath: '/case-study/bridgetobridge',
-    viewWebsite: false,
-    viewWebsitePath: '' 
-  },
-  { 
-    imagePath: 'src/assets/img/mockups/levis-mockup-small.png',
-    imageDescription: 'Lounge Mockup Image',
-    title: 'Design / Front End Development',
-    languages: 'HTML, CSS, Responsive, Javascript',
-    year: '2015/2016',
-    description1: 'Radio Station Microsites',
-    description2: '',
-    learnMore: true,
-    learnMorePath: '/case-study/cumulus',
     viewWebsite: false,
     viewWebsitePath: '' 
   },
