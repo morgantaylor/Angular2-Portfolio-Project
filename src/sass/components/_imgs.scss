@@ -19,14 +19,23 @@
 	}
 }
 
-.figure-inline {
+.figure {
 	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
+    margin: 0 0 1rem;
 
-	.figure {
-		width: 100%;
-		max-width: 300px;
+    &-inline {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+    }
+
+	&-img {
+	    margin-bottom: .5rem;
+	    line-height: 1;
 	}
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }

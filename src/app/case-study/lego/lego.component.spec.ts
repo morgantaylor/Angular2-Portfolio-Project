@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LegoCSSComponent } from './case-study/lego-css.component';
+import { LegoComponent } from './case-study/lego.component';
 
-describe('LegoCSSComponent', () => {
-  let component: LegoCSSComponent;
-  let fixture: ComponentFixture<LegoCSSComponent>;
+describe('LegoComponent', () => {
+  let component: LegoComponent;
+  let fixture: ComponentFixture<LegoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LegoCSSComponent ]
+      declarations: [ LegoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LegoCSSComponent);
+    fixture = TestBed.createComponent(LegoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

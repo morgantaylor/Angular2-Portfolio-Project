@@ -11,7 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ContactComponent } from './contact/contact.component';
-import { LegoCSSComponent } from './case-study/lego-css/lego-css.component';
+import { LegoComponent } from './case-study/lego/lego.component';
 import { KfogComponent } from './case-study/kfog/kfog.component';
 import { KgoradioComponent } from './case-study/kgoradio/kgoradio.component';
 import { BridgetobridgeComponent } from './case-study/bridgetobridge/bridgetobridge.component';
@@ -32,7 +32,7 @@ import { SobekComponent } from './case-study/sobek/sobek.component';
     FooterComponent,
     ProjectsComponent,
     ContactComponent,
-    LegoCSSComponent,
+    LegoComponent,
     KfogComponent,
     KgoradioComponent,
     BridgetobridgeComponent,

@@ -6,7 +6,7 @@ import { ContactComponent }      from './contact/contact.component';
 
 import { MobileAppComponent }      from './case-study/mobile-app/mobile-app.component';
 import { DailyflowfitnessComponent }      from './case-study/dailyflowfitness/dailyflowfitness.component';
-import { LegoCSSComponent }      from './case-study/lego-css/lego-css.component';
+import { LegoComponent }      from './case-study/lego/lego.component';
 
 import { KfogComponent }      from './case-study/kfog/kfog.component';
 import { KgoradioComponent }      from './case-study/kgoradio/kgoradio.component';
@@ -27,7 +27,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'case-study/mobile-app', component: MobileAppComponent },
   { path: 'case-study/dailyflowfitness', component: DailyflowfitnessComponent },  
-  { path: 'case-study/lego-css', component: LegoCSSComponent },
+  { path: 'case-study/lego', component: LegoComponent },
   { path: 'case-study/kfog', component: KfogComponent },
   { path: 'case-study/kgoradio', component: KgoradioComponent },
   { path: 'case-study/bridgetobridge', component: BridgetobridgeComponent },

@@ -79,19 +79,13 @@ button,
 }
 
 a > .liveSite {
+    @extend .link-blue;
     position: relative;
     display: block;
     max-width: 200px;
     width: 100%;
     margin: 30px auto 60px;
     padding: 10px 0;
-    background-color: #666;
-    color: #fff;
     border: solid 1px transparent;
-    border-radius: 5px;
     font-size: 1.2em;
-}
-
-a > .liveSite:hover {
-    background-color: #f44;
 }

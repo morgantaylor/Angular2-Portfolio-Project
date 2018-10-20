@@ -36,7 +36,7 @@ export const PROJECTS: Project[] = [
     description1: 'In progress: Creating a lightweight SASS/CSS library with responsive modules. Preview coming soon!',
     description2: '',
     learnMore: true,
-    learnMorePath: '/case-study/lego-css',
+    learnMorePath: '/case-study/lego',
     viewWebsite: false,
     viewWebsitePath: '' 
   },
