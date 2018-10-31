@@ -1,16 +1,29 @@
 import { Project } from '../projects/project';
 
 export const PROJECTS: Project[] = [
+{ 
+    imagePath: 'src/assets/img/mockups/dff-mockup-small.png',
+    imageDescription: 'Mtwebmedia Portfolio Website Image',
+    title: 'Front End Development / UX / UI',
+    languages: 'HTML, SASS, Javascript, Angular2',
+    year: '2018',
+    description1: 'A mobile first portfolio written with Angular2',
+    description2: '',
+    learnMore: true,
+    learnMorePath: '/case-study/webmedia',
+    viewWebsite: false,
+    viewWebsitePath: '' 
+  },
   { 
-    imagePath: 'src/assets/img/mockups/app2-mockup-mvp-small.png',
+    imagePath: 'src/assets/img/mockups/lego-display-small.png',
     imageDescription: 'App Design Mockup',
-    title: 'UX / Design / Front End Development',
-    languages: 'UX, HTML, SASS',
+    title: 'Mobile / Design / UX',
+    languages: '',
     year: '2017/2018',
     description1: 'App design',
     description2: 'Includes: Journey maps, wireframes, low/hi-fidelity mockups, prototypes',
-    learnMore: true,
-    learnMorePath: '/case-study/mobile-app',
+    learnMore: false,
+    learnMorePath: '',
     viewWebsite: false,
     viewWebsitePath: ''
   },

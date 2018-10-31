@@ -20,6 +20,7 @@ import { LevisComponent } from './case-study/levis/levis.component';
 import { FanfestComponent } from './case-study/fanfest/fanfest.component';
 import { YosemiteComponent } from './case-study/yosemite/yosemite.component';
 import { SobekComponent } from './case-study/sobek/sobek.component';
+import { WebmediaComponent } from './case-study/webmedia/webmedia.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { SobekComponent } from './case-study/sobek/sobek.component';
     LevisComponent,
     FanfestComponent,
     YosemiteComponent,
-    SobekComponent
+    SobekComponent,
+    WebmediaComponent
   ],
   imports: [
     BrowserModule,

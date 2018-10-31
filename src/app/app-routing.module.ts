@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent }      from './home/home.component';
 import { ContactComponent }      from './contact/contact.component';
 
+import { WebmediaComponent } from './case-study/webmedia/webmedia.component';
 import { MobileAppComponent }      from './case-study/mobile-app/mobile-app.component';
 import { DailyflowfitnessComponent }      from './case-study/dailyflowfitness/dailyflowfitness.component';
 import { LegoComponent }      from './case-study/lego/lego.component';
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },  
   { path: 'home', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'case-study/webmedia', component: WebmediaComponent },
   { path: 'case-study/mobile-app', component: MobileAppComponent },
   { path: 'case-study/dailyflowfitness', component: DailyflowfitnessComponent },  
   { path: 'case-study/lego', component: LegoComponent },
