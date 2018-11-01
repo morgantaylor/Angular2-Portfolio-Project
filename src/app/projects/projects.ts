@@ -2,7 +2,7 @@ import { Project } from '../projects/project';
 
 export const PROJECTS: Project[] = [
 { 
-    imagePath: 'src/assets/img/mockups/dff-mockup-small.png',
+    imagePath: 'src/assets/img/mockups/mt-webmedia-mockup-small.png',
     imageDescription: 'Mtwebmedia Portfolio Website Image',
     title: 'Front End Development / UX / UI',
     languages: 'HTML, SASS, Javascript, Angular2',
@@ -21,7 +21,7 @@ export const PROJECTS: Project[] = [
     languages: '',
     year: '2017/2018',
     description1: 'App design',
-    description2: 'Includes: Journey maps, wireframes, low/hi-fidelity mockups, prototypes',
+    description2: 'In progress: Journey maps, wireframes, low/hi-fidelity mockups, and prototypes. Coming soon!',
     learnMore: false,
     learnMorePath: '',
     viewWebsite: false,
