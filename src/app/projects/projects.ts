@@ -2,7 +2,7 @@ import { Project } from '../projects/project';
 
 export const PROJECTS: Project[] = [
 { 
-    imagePath: 'src/assets/img/mockups/mt-webmedia-mockup-small.png',
+    imagePath: './assets/img/mockups/mt-webmedia-mockup-small.png',
     imageDescription: 'Mtwebmedia Portfolio Website Image',
     title: 'Front End Development / UX / UI',
     languages: 'HTML, SASS, Javascript, Angular2',
@@ -15,7 +15,7 @@ export const PROJECTS: Project[] = [
     viewWebsitePath: '' 
   },
   { 
-    imagePath: 'src/assets/img/mockups/lego-display-small.png',
+    imagePath: './assets/img/mockups/lego-display-small.png',
     imageDescription: 'App Design Mockup',
     title: 'Mobile / Design / UX',
     languages: '',
@@ -28,7 +28,7 @@ export const PROJECTS: Project[] = [
     viewWebsitePath: ''
   },
   { 
-    imagePath: 'src/assets/img/mockups/dff-mockup-small.png',
+    imagePath: './assets/img/mockups/dff-mockup-small.png',
     imageDescription: 'Daily Flow Fitness Mockup Image',
     title: 'UX / Design / Front End Development',
     languages: 'HTML, SASS, PHP, Javascript',
@@ -41,7 +41,7 @@ export const PROJECTS: Project[] = [
     viewWebsitePath: 'http://dailyflowfitness.com' 
   },
   { 
-    imagePath: 'src/assets/img/mockups/lego-display-small.png',
+    imagePath: './assets/img/mockups/lego-display-small.png',
     imageDescription: '',
     title: 'UX / Design / SASS',
     languages: 'SASS',
@@ -54,7 +54,7 @@ export const PROJECTS: Project[] = [
     viewWebsitePath: '' 
   },
   { 
-    imagePath: 'src/assets/img/mockups/levis-mockup-small.png',
+    imagePath: './assets/img/mockups/levis-mockup-small.png',
     imageDescription: 'Lounge Mockup Image',
     title: 'Design / Front End Development',
     languages: 'HTML, CSS, Responsive, Javascript',
@@ -67,7 +67,7 @@ export const PROJECTS: Project[] = [
     viewWebsitePath: '' 
   },
   { 
-    imagePath: 'src/assets/img/mockups/kfog-mockup-small.png',
+    imagePath: './assets/img/mockups/kfog-mockup-small.png',
     imageDescription: 'KFOG Mockup Image',
     title: 'Front End Development',
     languages: 'CSS, Responsive, Wordpress',
@@ -80,7 +80,7 @@ export const PROJECTS: Project[] = [
     viewWebsitePath: '' 
   },
   { 
-    imagePath: 'src/assets/img/mockups/kgoradio-mockup-small.png',
+    imagePath: './assets/img/mockups/kgoradio-mockup-small.png',
     imageDescription: 'KGO Radio Mockup Image',
     title: 'Front End Development',
     languages: 'UX, HTML, SASS',
@@ -93,7 +93,7 @@ export const PROJECTS: Project[] = [
     viewWebsitePath: 'http://www.kgoradio.com/' 
   },
   { 
-    imagePath: 'src/assets/img/mockups/b2b-mockup-small.png',
+    imagePath: './assets/img/mockups/b2b-mockup-small.png',
     imageDescription: 'Bridge to Bridge Mockup Image',
     title: 'Design / Front End Development',
     languages: 'HTML, CSS, Responsive, Javascript',
@@ -106,7 +106,7 @@ export const PROJECTS: Project[] = [
     viewWebsitePath: '' 
   },
   { 
-    imagePath: 'src/assets/img/mockups/colossal-mockup-small.png',
+    imagePath: './assets/img/mockups/colossal-mockup-small.png',
     imageDescription: 'Colossal Mockup Image',
     title: 'UX / Design',
     languages: 'UX, HTML, CSS, Responsive, Javascript',
