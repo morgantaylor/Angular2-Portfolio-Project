@@ -2,7 +2,6 @@ import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent }      from './home/home.component';
-import { ContactComponent }      from './contact/contact.component';
 
 import { WebmediaComponent } from './case-study/webmedia/webmedia.component';
 import { MobileAppComponent }      from './case-study/mobile-app/mobile-app.component';
@@ -25,7 +24,6 @@ import { SobekComponent } from './case-study/sobek/sobek.component';
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },  
   { path: 'home', component: HomeComponent },
-  { path: 'contact', component: ContactComponent },
   { path: 'case-study/webmedia', component: WebmediaComponent },
   { path: 'case-study/mobile-app', component: MobileAppComponent },
   { path: 'case-study/dailyflowfitness', component: DailyflowfitnessComponent },  

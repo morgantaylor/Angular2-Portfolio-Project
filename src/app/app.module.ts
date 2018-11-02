@@ -10,7 +10,6 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AppRoutingModule } from './app-routing.module';
-import { ContactComponent } from './contact/contact.component';
 import { LegoComponent } from './case-study/lego/lego.component';
 import { KfogComponent } from './case-study/kfog/kfog.component';
 import { KgoradioComponent } from './case-study/kgoradio/kgoradio.component';
@@ -32,7 +31,6 @@ import { WebmediaComponent } from './case-study/webmedia/webmedia.component';
     NavigationComponent,
     FooterComponent,
     ProjectsComponent,
-    ContactComponent,
     LegoComponent,
     KfogComponent,
     KgoradioComponent,
