@@ -1,6 +1,7 @@
 .social-icons {
 	display: flex;
     justify-content: center;
+    align-items: center;
 }
 	
 .social-icons span {
@@ -11,6 +12,10 @@
 
     &:hover {
     	color: $black;
+    }
+
+    &.fa-envelope-o {
+        font-size: 30px;
     }
 }
 	
