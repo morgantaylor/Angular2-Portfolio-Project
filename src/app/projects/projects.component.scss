@@ -44,20 +44,20 @@
   }
 
   &__inner {
-    max-width: 375px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 15px 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
     width: 100%;
     height: 210px;
+    text-align: left;
+    align-items: flex-start;
 
     @include for-size(tablet-portrait-up) {
       padding: 0;
-      text-align: left;
-      align-items: flex-start;
+      max-width: 375px;
     }
   }
 
