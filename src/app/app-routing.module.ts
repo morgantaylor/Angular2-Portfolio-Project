@@ -22,8 +22,8 @@ import { SobekComponent } from './case-study/sobek/sobek.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },  
-  { path: 'home', component: HomeComponent },
+  { path: '', redirectTo: '/', pathMatch: 'full' },  
+  { path: '', component: HomeComponent },
   { path: 'case-study/webmedia', component: WebmediaComponent },
   { path: 'case-study/mobile-app', component: MobileAppComponent },
   { path: 'case-study/dailyflowfitness', component: DailyflowfitnessComponent },  
@@ -36,7 +36,8 @@ const routes: Routes = [
   { path: 'case-study/microsites/levis', component: LevisComponent },
   { path: 'case-study/microsites/fanfest', component: FanfestComponent },
   { path: 'case-study/microsites/yosemite', component: YosemiteComponent },
-  { path: 'case-study/microsites/sobek', component: SobekComponent }
+  { path: 'case-study/microsites/sobek', component: SobekComponent },
+  { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];
 
 @NgModule({
