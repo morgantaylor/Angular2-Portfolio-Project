@@ -1,7 +1,20 @@
 import { Project } from '../projects/project';
 
 export const PROJECTS: Project[] = [
-{ 
+  { 
+    imagePath: './assets/img/mockups/lego-mockup-small.png',
+    imageDescription: '',
+    title: 'Front End Development / Design / UX',
+    languages: 'SASS / UX / Design / Angular 6',
+    year: '2017-2020',
+    description1: 'LegoCSS is a small component library using lego-like pieces that can easily fit your brand’s unique look and feel',
+    description2: '',
+    learnMore: true,
+    learnMorePath: '/case-study/lego',
+    viewWebsite: true,
+    viewWebsitePath: 'https://legocss.com/' 
+  },
+  { 
     imagePath: './assets/img/mockups/mt-webmedia-mockup-small.png',
     imageDescription: 'Mtwebmedia Portfolio Website Image',
     title: 'Front End Development / UX / UI',
@@ -39,19 +52,6 @@ export const PROJECTS: Project[] = [
     learnMorePath: '/case-study/dailyflowfitness',
     viewWebsite: true,
     viewWebsitePath: 'http://dailyflowfitness.com' 
-  },
-  { 
-    imagePath: './assets/img/mockups/lego-display-small.png',
-    imageDescription: '',
-    title: 'UX / Design / SASS',
-    languages: 'SASS',
-    year: '2017/2018',
-    description1: 'In progress: Creating a lightweight SASS/CSS library with responsive modules. Preview coming soon!',
-    description2: '',
-    learnMore: true,
-    learnMorePath: '/case-study/lego',
-    viewWebsite: false,
-    viewWebsitePath: '' 
   },
   { 
     imagePath: './assets/img/mockups/levis-mockup-small.png',
