@@ -50,7 +50,7 @@ export const PROJECTS: Project[] = [
     description2: '',
     learnMore: true,
     learnMorePath: '/case-study/dailyflowfitness',
-    viewWebsite: true,
+    viewWebsite: false,
     viewWebsitePath: 'http://dailyflowfitness.com' 
   },
   { 
@@ -89,7 +89,7 @@ export const PROJECTS: Project[] = [
     description2: '',
     learnMore: true,
     learnMorePath: '/case-study/kgoradio',
-    viewWebsite: true,
+    viewWebsite: false,
     viewWebsitePath: 'http://www.kgoradio.com/' 
   },
   { 
