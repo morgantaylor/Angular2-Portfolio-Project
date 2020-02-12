@@ -50,7 +50,7 @@ export const PROJECTS: Project[] = [
     description2: '',
     learnMore: true,
     learnMorePath: '/case-study/dailyflowfitness',
-    viewWebsite: false,
+    viewWebsite: true,
     viewWebsitePath: 'http://dailyflowfitness.com' 
   },
   { 
