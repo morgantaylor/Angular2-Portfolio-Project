@@ -28,6 +28,7 @@
           },
           "configurations": {
             "production": {
+              "outputPath": "dist/production",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -43,6 +44,16 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "staging": {
+              "outputPath": "dist/staging",
+              "tsConfig": "src/tsconfig.app.stage.json",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.stage.ts"
+                }
+              ]
             }
           }
         },
@@ -54,6 +65,9 @@
           "configurations": {
             "production": {
               "browserTarget": "webmedia:build:production"
+            },
+            "staging": {
+              "browserTarget": "webmedia:build:staging"
             }
           }
         },
