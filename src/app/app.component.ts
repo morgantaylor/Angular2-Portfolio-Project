@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { environment } from './../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -8,12 +7,4 @@ import { environment } from './../environments/environment';
 })
 export class AppComponent {
   title = 'mtwebmedia';
-  stagingFlag = environment.staging;
-
-  constructor() {
-  		if (environment.staging) {
-  			console.log('staging: ', environment.staging);
-    		console.log('production: ', environment.production);
-    	}
-  	}
 }
