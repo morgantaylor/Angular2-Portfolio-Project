@@ -20,9 +20,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/MorganTaylorResume.pdf",
-              "src/manifest.json",
-              "src/favicon.ico"
+              "src/manifest.json"
             ],
             "styles": [
               "src/sass/styles.scss"
