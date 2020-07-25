@@ -7,10 +7,10 @@
     <p class="feed__info">{{ project.description1 }}</p>
     <p class="feed__info" *ngIf="project.description2">{{ project.description2 }}</p>
     <div class="feed__buttons">
-      <a *ngIf="project.viewWebsite" href="{{ project.viewWebsitePath }}" target="_blank">
+      <a *ngIf="project.viewWebsite" href="{{ project.viewWebsitePath }}" target="_blank" rel="noreferrer">
         <button class="btn link-blue feed__button">Visit</button>
       </a>
-      <a *ngIf="project.learnMore" routerLink="{{ project.learnMorePath }}">
+      <a *ngIf="project.learnMore" routerLink="{{ project.learnMorePath }}" rel="noreferrer">
         <button class="btn link-blue feed__button">Lean More</button>
       </a>
     </div>

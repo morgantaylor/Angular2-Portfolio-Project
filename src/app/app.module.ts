@@ -2,6 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+
+// Font Awesome icon imports
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+
 import { HomeComponent } from './home/home.component';
 import { CumulusComponent } from './case-study/cumulus/cumulus.component';
 import { DailyflowfitnessComponent } from './case-study/dailyflowfitness/dailyflowfitness.component';
@@ -44,9 +55,16 @@ import { WebmediaComponent } from './case-study/webmedia/webmedia.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+  constructor() {
+    library.add(fas, fab, far);
+    library.add(faGithub, faLinkedin, faEnvelope);
+  }
+}
