@@ -4,18 +4,17 @@
     align-items: center;
 }
 	
-.social-icons span {
-	font-size: 32px;
-    padding: 20px;
+.social-icons a {
+	font-size: 25px;
+    padding: 10px;
     width: auto;
-    color: $white;
+    
+    path {
+        color: $white;
 
-    &:hover {
-    	color: $black;
-    }
-
-    &.fa-envelope-o {
-        font-size: 30px;
+        &:hover {
+            color: $black;
+        }
     }
 }
 	
