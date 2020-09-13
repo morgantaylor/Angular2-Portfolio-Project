@@ -1,7 +1,6 @@
 {
   "name": "Morgan Taylor's Porfolio",
   "short_name": "MT Webmedia",
-  "start_url": "http://mtwebmedia.com/",
   "description": "The porfolio for Morgan Taylor.",
   "scope": "/",
   "start_url": "/",
